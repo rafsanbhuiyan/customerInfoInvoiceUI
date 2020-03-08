@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CS311_U2_SubNode_RafsanBhuiyan</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="customer_id">Customer ID</string>
+    <string name="customer_address">Customer Address</string>
+    <string name="submit">SUBMIT</string>
+    <string name="order_fullfilledby">Order_FullfilledBy</string>
+    <string name="order_quantity">Order_Quantity</string>
+    <string name="order_name">Order_Name</string>
+    <string name="customer_orderid">Customer OrderID</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

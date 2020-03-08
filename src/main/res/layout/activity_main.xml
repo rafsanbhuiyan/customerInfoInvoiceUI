@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA000"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/textInput3"
+        android:layout_width="203dp"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="348dp"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <EditText
+        android:id="@+id/textInput2"
+        android:layout_width="203dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="431dp"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <TextView
+        android:id="@+id/customerLabel1"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="14dp"
+        android:background="#0288D1"
+        android:lineSpacingExtra="14sp"
+        android:text="@string/customer_name"
+        android:textColor="#FCE4EC"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:drawableTint="#00811919"
+        tools:ignore="RelativeOverlap"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <TextView
+        android:id="@+id/customerLabel3"
+        android:layout_width="175dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="186dp"
+        android:background="#0288D1"
+        android:lineSpacingExtra="10sp"
+        android:text="@string/customer_address"
+        android:textColor="#FCE4EC"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:drawableTint="#00811919"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/textInput1"
+        android:layout_width="210dp"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="515dp"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <TextView
+        android:id="@+id/customerLabel2"
+        android:layout_width="178dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="98dp"
+        android:background="#0288D1"
+        android:lineSpacingExtra="10sp"
+        android:text="@string/customer_id"
+        android:textColor="#FCE4EC"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:drawableTint="#00811919"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="164dp"
+        android:layout_height="108dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="116dp"
+        android:background="#BA68C8"
+        android:text="@string/submit" />
+
+</RelativeLayout>
